@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version = "3.8.2"
   spec.summary = "animated webp"
   spec.homepage = "https://github.com/dulingkang/sd_webp"
-  spec.license = { type: 'MIT', file: '../LICENSE' }
+  spec.license = { type: 'MIT', file: 'LICENSE' }
   spec.authors = { "Shawn Du" => 'dulingkang@163.com' }
 
   spec.platform = :ios, "7.0"
@@ -19,7 +19,6 @@ Pod::Spec.new do |spec|
                   'and performances!' \
 'support animated webp'
 
-  spec.requires_arc = true
   spec.framework = 'ImageIO'
   spec.xcconfig = {
       'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) SD_WEBP=1',
