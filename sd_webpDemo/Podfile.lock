@@ -1,0 +1,42 @@
+PODS:
+  - libwebp (0.5.1):
+    - libwebp/core (= 0.5.1)
+    - libwebp/dec (= 0.5.1)
+    - libwebp/demux (= 0.5.1)
+    - libwebp/dsp (= 0.5.1)
+    - libwebp/enc (= 0.5.1)
+    - libwebp/mux (= 0.5.1)
+    - libwebp/utils (= 0.5.1)
+    - libwebp/webp (= 0.5.1)
+  - libwebp/core (0.5.1):
+    - libwebp/webp
+  - libwebp/dec (0.5.1):
+    - libwebp/core
+  - libwebp/demux (0.5.1):
+    - libwebp/core
+  - libwebp/dsp (0.5.1):
+    - libwebp/core
+  - libwebp/enc (0.5.1):
+    - libwebp/core
+  - libwebp/mux (0.5.1):
+    - libwebp/core
+  - libwebp/utils (0.5.1):
+    - libwebp/core
+  - libwebp/webp (0.5.1)
+  - sd_webp (3.8.2):
+    - libwebp
+
+DEPENDENCIES:
+  - sd_webp (from `../sd_webp`)
+
+EXTERNAL SOURCES:
+  sd_webp:
+    :path: "../sd_webp"
+
+SPEC CHECKSUMS:
+  libwebp: b9126f8982a95370cf4eaad9bb3fefd57f052c15
+  sd_webp: c4cfbe0e8abc723e83344768ac710b4a1f779afa
+
+PODFILE CHECKSUM: 5ef78ddef4107a378478752730ae9db97306f05b
+
+COCOAPODS: 1.2.0.beta.1
