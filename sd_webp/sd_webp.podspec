@@ -1,15 +1,14 @@
 Pod::Spec.new do |spec|
   spec.name = "sd_webp"
-  spec.version = "3.8.2"
+  spec.version = "3.8.3"
   spec.summary = "animated webp"
   spec.homepage = "https://github.com/dulingkang/sd_webp"
-  spec.license = { type: 'MIT', file: 'LICENSE' }
+  spec.license =  'MIT'
   spec.authors = { "Shawn Du" => 'dulingkang@163.com' }
-
-  spec.platform = :ios, "7.0"
+  spec.ios.deployment_target = '7.0'
   spec.requires_arc = true
   spec.source = { git: "https://github.com/dulingkang/sd_webp.git", tag: "v#{spec.version}", submodules: true }
-  spec.source_files = 'SDWebImage/*.{h,m}'
+  spec.source_files = 'sd_webp/SDWebImage/*.{h,m}'
   spec.description = 'This library provides a category for UIImageView with support for remote '      \
                   'images coming from the web. It provides an UIImageView category adding web '    \
                   'image and cache management to the Cocoa Touch framework, an asynchronous '      \
